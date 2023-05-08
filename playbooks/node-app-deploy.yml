@@ -1,9 +1,9 @@
-- hosts: ubuntu_slaves
+- hosts: webserver
   become: yes
   tasks:
     - name: copy built files to deploy-server
       synchronize:
-        src: /var/lib/jenkins/workspace/node-pipeline1/build/
+        src: /var/lib/jenkins/workspace/node-pipe/build/
         dest: /var/www/my-app/
         delete: true
         recursive: true
