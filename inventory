@@ -1,7 +1,3 @@
-[ubuntu_slaves]
-10.200.1.254 ansible_user=ubuntu
-10.200.0.149 ansible_user=ubuntu
+[webserver]
+172.31.83.62 ansible_user=ubuntu
 
-
-[redhat_slaves]
-10.200.1.183 ansible_user=ec2-user
