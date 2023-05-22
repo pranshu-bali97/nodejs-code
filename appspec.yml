@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec20-user/myapp
+    destination: /home/ec2-user/myapp
     overwrite: true
 hooks:
   BeforeInstall:
